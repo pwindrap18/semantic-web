@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RM Tengah Malam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="container">
+      <h1>RM Tengah malam</h1>
+      <h2>Makanan</h2>
+      <div class = "menu">
+        <h3>Ayam</h3>
+          <ul>
+              <li>Ayam goreng <button onclick="addListAyamGr()" id="Ayamgoreng" value="Ayam goreng">tambah</button></li>
+              <li>Ayam bakar <button onclick="addListAyamBkr()" id="Ayambakar" value="Ayam bakar">tambah</button></li>
+              <li>Ayam geprek <button onclick="addListAyamGprk()" id="Ayamgeprek" value="Ayam geprek">tambah</button></li>
+          </ul>
+      </div>
+      <h2>Minuman</h2>
+      <div class="menu">
+        <ul>
+          <li>Es teh manis <button onclick="addListEtm()" id="Estehmanis" value="Es teh manis">tambah</button></li>
+          <li>Es jeruk <button onclick="addListEj()" id="Esjeruk" value="Es jeruk">tambah</button></li>
+          <li>Teh tawar <button onclick="addListTt()" id="Tehtawar" value="Teh tawar">tambah</button></li>
+        </ul>
+      </div>
+      <h2>List Pesanan</h2>
+      <div id="pesanan">
+        <ul>
+
+        </ul>
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
